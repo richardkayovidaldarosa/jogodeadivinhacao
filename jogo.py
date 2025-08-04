@@ -32,6 +32,7 @@ for rodada in range (1, totalTentativas +1) :
     if(chute < 1 or > 100):
         print ("Número inválido")
         continue
+    
     acertou = chute == numeroSecreto
     maior = chute > numeroSecreto
     menor = chute < numeroSecreto 
